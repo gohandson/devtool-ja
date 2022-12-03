@@ -2,6 +2,7 @@
 
 ## 新しく学ぶこと
 
-* fmt.Println
-* fmt.Printf
 * 変数
+* 標準ライブラリ
+* fmt.Println関数
+* fmt.Printf関数

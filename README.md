@@ -2,7 +2,7 @@
 
 ## 解説資料
 
-* DBA 
+* https://tenn.in/devtool
 
 ## ハンズオンのやりかた
 

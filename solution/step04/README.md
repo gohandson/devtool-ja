@@ -1,7 +1,7 @@
-# STEP04: テンプレートを使う
+# STEP04: テンプレートファイルを使う
 
 ## 新しく学ぶこと
 
-* text/templateパッケージ
 * ホームディレクトリ
-* path.Join
+* パスの結合
+* text/templateパッケージ

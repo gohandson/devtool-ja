@@ -8,7 +8,7 @@ import (
 	"go/format"
 	"html/template"
 	"os"
-	"path"
+	"path/filepath"
 	"strings"
 )
 
@@ -40,8 +40,8 @@ func run() error {
 		return err
 	}
 
-	// TODO: 変数homeと".mydevtool", "template", "*.tmpl"をpath.Joinで結合
-	pattern := path.Join(home, ".mydevtool", "template", "*.tmpl")
+	// TODO: 変数homeと".mydevtool", "template", "*.tmpl"をfilepath.Joinで結合
+	pattern := filepath.Join(home, ".mydevtool", "template", "*.tmpl")
 	tmpl, err := template.ParseGlob(pattern)
 	if err != nil {
 		return err
